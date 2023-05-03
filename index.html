@@ -7,13 +7,18 @@
  <meta name="keywords" content="HTML, CSS, JavaScript,Python,Machine Learning">
  <meta name="author" content="kirn_beerelli">
   <title>KiranB</title>
-  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="./design.css">
+  <link rel="stylesheet" href="./specialstyle.scss">
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,17 +39,39 @@
 
   <section class="showcase">
     <div class="video-container">
-        <video src="https://youtu.be/fNkPOLpQjlw" autoplay muted loop></video>
+      <!-- <video width="320" height="240" controls autoplay>
+        <source src="movie.mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video> -->
 
   <img class='bgp' src="images/mybg.jpg" alt="type">
-    </div>
-    <div class="content">
-      <h1>Greetings Earthlings</h1>
-      <h3>It's Me ,KB</h3>
-      <a href="#about" class="btn">About Me</a>
-    </div>
+     </div>
+    <div class="content"> 
+       <!-- <h1>Greetings Earthlings</h1> -->
+       <!-- so u guys are here this is code -->
+      
+      
 
+      <div class="content__container">
+        <p class="content__container__text">
+          I'm 
+        </p>
+        
+        <ul class="content__container__list">
+          <li class="content__container__list__item">@student</li>
+          <li class="content__container__list__item">@developer</li>
+          <li class="content__container__list__item">@engineer</li>
+          <li class="content__container__list__item">@inventor</li>
+        </ul>
+      </div>
+      
+
+    </div>
+    <!-- <a href="#about" class="btn">About Me</a> -->
 </section>
+<!-- test break session -->
+<!-- test cancelled -->
 <!--   this section has about information       -->
   <section id="about">
     <h1>About</h1>
@@ -57,13 +84,13 @@
 <p>Currently an Engineering student at<a class='cllg' target="_blank" href="https://www.sreenidhi.edu.in/index.php">SNIST</a>  ,Studying Electronics and
       Communication engineering.</p>
   <hr>
-  <h1>Skills</h1>
+  <h1 id="skillshead">Skills</h1>
   <!--
 table for the following skills
      -->
 
 <center>
-  <table  class='skills'  cellspacing="20" id="sl">
+  <table  class='skills'   id="sl">
     <tr>
       <td class="skill"> Python</td>
       <td class='rating'>⭐️⭐️⭐️⭐️</td>
@@ -105,8 +132,8 @@ table for the following skills
     </tr>-->
    </table>
 
-  </center>
 
+  </center>
 
   </section>
 
@@ -118,8 +145,8 @@ table for the following skills
     <h2>Follow Me On Social Media</h2>
     <div class="social">
       <!--  <a class='twitter'href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
-      <a class='github' href="https://github.com/poisedonheir" target="_blank"><i class="fa fa-github " style="font-size:36px"></i></a>
-      <a class='instagram' href="https://www.instagram.com/kirn_beerelli/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+      <a class='github' href="https://github.com/poisedonheir" target="_blank" rel="noopener noreferrer"><i class="fa fa-github " style="font-size:36px"></i></a>
+      <a class='instagram' href="https://www.instagram.com/kirn_beerelli/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" style="font-size:36px"></i></a>
 
       <p class='creditid'>@2020KiranBeerelli</p>
     </div>
